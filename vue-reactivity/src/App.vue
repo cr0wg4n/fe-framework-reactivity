@@ -4,6 +4,7 @@ import DiceBoard from './components/DiceBoard.vue'
 
 const timer = ref(0)
 const disabled = ref(false)
+
 const interval = setInterval(() => {
   timer.value++
   if (timer.value % 3 === 0) {

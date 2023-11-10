@@ -43,32 +43,4 @@ console.log('DiceItem inicializado')
   </div>
 </template>
 
-<style lang="scss" scoped>
-.dice {
-  height: 100px;
-  width: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #f0f0f0;
-  border: 2px solid #000000;
-  border-radius: 10px;
-}
-
-.dice__container {
-  display: grid;
-  grid-auto-flow: row;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-}
-
-.dice__dot {
-  width: 12px;
-  height: 12px;
-  background: transparent;
-}
-
-.dice__dot-active {
-  background: #000000;
-}
-</style>
+<style scoped src="./DiceItem.css" />

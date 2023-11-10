@@ -30,25 +30,4 @@ console.log('DiceBoard incializado')
   </div>
 </template>
 
-<style scoped>
-.dice-board {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 300px;
-  padding: 30px;
-  background: rgb(65, 35, 35);
-  border-radius: 10px;
-}
-
-.dice-board__number {
-  margin: auto;
-  color: white;
-  font-size: 24px;
-}
-
-.dice-board__button:hover {
-  cursor: pointer;
-}
-</style>
+<style scoped src="./DiceBoard.css" />
