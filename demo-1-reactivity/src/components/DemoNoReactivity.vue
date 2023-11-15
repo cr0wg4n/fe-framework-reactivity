@@ -1,14 +1,13 @@
 <script setup lang="ts">
-import { ref } from 'vue'
-
-const counter = ref(0)
+let counter = 0
 
 console.log('Inicializando', {
-  counter: counter.value
+  counter
 })
 
 setInterval(()=>{
-  counter.value++
+  counter++
+  console.log(counter)
 }, 1000)
 </script>
 
@@ -17,3 +16,4 @@ setInterval(()=>{
     counter: {{ counter }}
   </div>
 </template>
+
