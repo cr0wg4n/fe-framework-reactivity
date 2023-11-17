@@ -4,7 +4,7 @@
   // Inicialización de variable reactiva
   const counter = ref(0)
   // Para modificar
-  counter.value = 10
+  counter.value = 20
   // Para acceder (imprime 10)
   console.log(counter.value) 
 </script>
